@@ -27,7 +27,7 @@ install:
 
 env:
   global:
-  - RUN_LONG_TEST=1
+  - RUN_LONG_TEST=0
 jobs:
   fast_finish: true
   allow_failures:
